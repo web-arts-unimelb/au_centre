@@ -1,0 +1,8 @@
+<?php
+
+// hook_init
+function au_centre_init() {
+  if(!drupal_is_front_page()) {
+    drupal_add_css(drupal_get_path('module', 'au_centre') . "/css/header_height.css");
+  }
+}

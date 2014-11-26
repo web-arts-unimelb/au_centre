@@ -1,0 +1,4 @@
+.front .header.without-ht, .header {
+	/* Be very specific */
+	min-height: 110px;
+}
